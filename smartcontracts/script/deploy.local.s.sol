@@ -2,7 +2,7 @@
 pragma solidity ^0.8.18;
 
 import {Script, console2} from "forge-std/Script.sol";
-import {Counter} from "../src/Counter.sol";
+import {Counter} from "../src/contract.sol";
 
 contract Local is Script {
     Counter counter;
